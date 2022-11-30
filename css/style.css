@@ -86,21 +86,29 @@ p {
 .curriculum-btn {
     text-align: center;
     padding-top: 18px;
-    text-decoration: none;
+    
     background-color: #119da4;
     border: none;
 
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
     width: 240px;
+    min-width: 240px;
     height: 60px;
 
     border-radius: 10px;
 
     transition: background-color 0.2s;
 }
+.curriculum-btn a {
+    /*display: inline-block!important; width: 200px; height: 200px;*/
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .curriculum-btn:hover {
     text-align: center;
     padding-top: 18px;
@@ -112,12 +120,22 @@ p {
     color: #ffffff;
     
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
     width: 240px;
+    min-width: 240px;
     height: 60px;
 
     border-radius: 10px;
 
     transition: background-color 0.2s;
+}
+.curriculum-btn:hover a {
+    /*display: inline-block!important; width: 200px; height: 200px;*/
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 @media (max-width: 600px)
@@ -160,6 +178,8 @@ p {
 
     width: 140px;
     height: 40px;
+    min-width: 140px;
+    white-space: nowrap;
     padding: 10px 20px;
     border-radius: 10px;
 
@@ -176,6 +196,8 @@ p {
 
     width: 140px;
     height: 80px;
+    min-width: 140px;
+    white-space: nowrap;
     padding: 10px 20px;
     border-radius: 10px;
 
