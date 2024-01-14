@@ -21,50 +21,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
-
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-  <script type="text/javascript">
-    (function() {
-        emailjs.init('Kdnh5FAhtMcOf-AuK');
-    })();
-  </script>
-  <script type="text/javascript">
-    window.onload = function() {
-      const email_btn = document.getElementById("send-email-btn");
-      const name_field = document.getElementById("name-field");
-      const tel_number_field = document.getElementById("tel-number-field");
-      const email_field = document.getElementById("email-field");
-      const subject_field = document.getElementById("subject-field");
-      const message_field = document.getElementById("message-field");
-
-      document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-
-        email_btn.value = "Enviando...";
-
-        const serviceID = 'default_service';
-        const templateID = 'template_n10dbam';
-
-        // these IDs from the previous steps
-        emailjs.sendForm(serviceID, templateID, this)
-          .then(function() {
-            alert("¡Correo enviado correctamente!");
-              email_btn.value = "Enviar";
-              name_field.value = "";
-              tel_number_field.value = "";
-              email_field.value = "";
-              subject_field.value = "";
-              message_field.value = "";
-          }, function(error) {
-              email_btn.value = "Enviar";
-              alert("Ha ocurrido un error al enviar el correo, inténtelo nuevamente");
-          });
-      });
-    }
-  </script>
 </head>
 
 <body>
+  <!--Language selector-->
+  <div class="language-selector-container">
+    <select id="language-selector" class="language-selector"></select>
+  </div>
+
   <!--Nav bar-->
   <nav class="navbar navbar-expand-lg sticky-top navbar-colors">
     <div class="container-fluid">
@@ -80,22 +44,22 @@
     <div class="collapse navbar-collapse navbar-links" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-light nav-element" href="#">Inicio</a>
+          <a loc-key="NAVBAR-HOME" class="nav-link active text-light nav-element" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-light nav-element" href="#projects">Proyectos</a>
+          <a loc-key="NAVBAR-PROJECTS" class="nav-link active text-light nav-element" href="#projects">Proyectos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-light nav-element" href="#experience">Experiencia</a>
+          <a loc-key="NAVBAR-EXPERIENCE" class="nav-link active text-light nav-element" href="#experience">Experiencia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-light nav-element" href="#education">Educación</a>
+          <a loc-key="NAVBAR-EDUCATION" class="nav-link active text-light nav-element" href="#education">Educación</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-light nav-element" href="#technologies">Tecnologías</a>
+          <a loc-key="NAVBAR-TECHNOLOGIES" class="nav-link active text-light nav-element" href="#technologies">Tecnologías</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-light nav-element" href="#contact">Contacto</a>
+          <a loc-key="NAVBAR-CONTACT" class="nav-link active text-light nav-element" href="#contact">Contacto</a>
         </li>
       </ul>
     </div>
@@ -105,15 +69,15 @@
   <header>
     <div class="container-fluid banner-section">
       <div class="banner-section-text-container">
-        <h1 data-aos="fade-right" class="text-center">Taylor Segura Vindas</h1>
-        <h2 data-aos="fade-left" class="text-end">Game Dev</h2>
-        <p data-aos="fade-right" data-aos-delay="100" class="text-center w-75 m-auto">
+        <h1 loc-key="HEADER-NAME" data-aos="fade-right" class="text-center">Taylor Segura Vindas</h1>
+        <h2 loc-key="HEADER-GAMEDEV" data-aos="fade-left" class="text-end">Game Dev</h2>
+        <p loc-key="HEADER-DESCRIPTION" data-aos="fade-right" data-aos-delay="100" class="text-center w-75 m-auto">
           Desarrollador de Software con énfasis en la creación de videojuegos
         </p>
 
         <div data-aos="fade-left" data-aos-delay="200">
           <div class="curriculum-btn">
-            <a href="assets/curriculum/TaylorSeguraVindas - CurriculumEspañol.pdf" download="Curriculum - Taylor Segura Vindas" target="_blank">Descargar Currículum</a>
+            <a id="download-curriculum-button" loc-key="DOWNLOAD-CURRICULUM" href="assets/curriculum/TaylorSeguraVindas - CurriculumEspañol.pdf" download="Curriculum - Taylor Segura Vindas" target="_blank">Descargar Currículum</a>
             <img src="assets/DownloadIcon-min.png" alt="Download icon" width="22px" height="22px" style="margin-left: 10px">
           </div>
         </div>
@@ -125,30 +89,36 @@
   <main>
     <!--Projects-->
     <div id="projects" data-aos="fade-right" class="content-section">
-      <h2 class="text-center mb-4">Proyectos</h2>
-      <p class="text-center">Una demostración de los proyectos que he realizado en los últimos 3 años</p>
+      <h2 loc-key="PROJECTS-SECTION-TITLE" class="text-center mb-4">Proyectos</h2>
 
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <!--NASB 2-->
+          <div class="col" data-aos="zoom-in" data-aos-delay="150">
+            <div class="card h-100">
+              <img src="assets/NASB2-header-min.png" class="card-img-top" alt="Nickelodeon All-Star Brawl title image">
+              <div class="card-body">
+                <h4 loc-key="PROJECT-CARD-NASB2-TITLE" class="card-title">Nickelodeon All-Star Brawl 2</h4>
+                <div class="play-btn-container">
+                  <a loc-key="PROJECTS-SECTION-PLAY-NOW" class="play-btn" href="https://store.steampowered.com/app/2017080/Nickelodeon_AllStar_Brawl_2/" target="_blank">Jugar ahora</a>
+                </div>
+  
+                <p loc-key="PROJECT-CARD-NASB2-DESCRIPTION" class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
           <!--NASB-->
           <div class="col" data-aos="zoom-in" data-aos-delay="150">
             <div class="card h-100">
               <img src="assets/NASB-header-min.png" class="card-img-top" alt="Nickelodeon All-Star Brawl title image">
               <div class="card-body">
-                <h4 class="card-title">Nickelodeon All-Star Brawl</h4>
+                <h4 loc-key="PROJECT-CARD-NASB-TITLE" class="card-title">Nickelodeon All-Star Brawl</h4>
                 <div class="play-btn-container">
-                  <a class="play-btn" href="https://store.steampowered.com/app/1414850/Nickelodeon_AllStar_Brawl/" target="_blank">Jugar ahora</a>
+                  <a loc-key="PROJECTS-SECTION-PLAY-NOW" class="play-btn" href="https://store.steampowered.com/app/1414850/Nickelodeon_AllStar_Brawl/" target="_blank">Jugar ahora</a>
                 </div>
   
-                <p class="card-text">
-                  Nickelodeon All-Star Brawl reúne a todos tus personajes favoritos de Nickelodeon para una batalla rimbombante.
-                  Enfréntate a un poderoso elenco de héroes de los mejores espectáculos del universo de Nickelodeon, para
-                  determinar el campeón definitivo.
-                </p>
-                <p class="card-text">
-                  Mi rol en este proyecto fue la programación e integración de diferentes personajes e items, así como el desarrollo de herramientas
-                  para la integración de VFX y SFX.
-                </p>
+                <p loc-key="PROJECT-CARD-NASB-DESCRIPTION" class="card-text"></p>
               </div>
             </div>
           </div>
@@ -158,20 +128,12 @@
             <div class="card h-100">
               <img src="assets/GI-Joe-Operation-Blackout-header-min.png" class="card-img-top" alt="GI Joe Operation Blackout title image">
               <div class="card-body">              
-                <h4 class="card-title">GI Joe Operation Blackout</h4>
+                <h4 loc-key="PROJECT-CARD-GIJOE-TITLE" class="card-title">GI Joe Operation Blackout</h4>
                 <div class="play-btn-container">
-                  <a class="play-btn" href="https://store.steampowered.com/app/1432220/GI_Joe_Operation_Blackout/" target="_blank">Jugar ahora</a>
+                  <a loc-key="PROJECTS-SECTION-PLAY-NOW" class="play-btn" href="https://store.steampowered.com/app/1432220/GI_Joe_Operation_Blackout/" target="_blank">Jugar ahora</a>
                 </div>
   
-                <p class="card-text">
-                  ¡G.I. Joe y Cobra han vuelto! G.I. Joe: Operation Blackout es un juego de disparos clásico en tercera
-                  persona por equipos en el que juegas con tus personajes favoritos del equipo G.I. Joe y del equipo Cobra.
-                  Disfruta de la acción de los dos equipos mientras ayudas a los G.I. Joe a devolver el orden y ayudas a los
-                  Cobra a dominar el mundo.
-                </p>
-                <p class="card-text">
-                  Mi rol en este proyecto fue la programación de mecánicas jugables y batallas contra jefes, además del diseño de niveles.
-                </p>
+                <p loc-key="PROJECT-CARD-GIJOE-DESCRIPTION" class="card-text"></p>
               </div>
             </div>
           </div>
@@ -181,19 +143,12 @@
             <div class="card h-100">
               <img src="assets/LongSpear-header-min.png" class="card-img-top" alt="Long Spear title image">
               <div class="card-body">
-                <h4 class="card-title">Long Spear</h4>
+                <h4 loc-key="PROJECT-CARD-LONG-SPEAR-TITLE" class="card-title">Long Spear</h4>
                 <div class="play-btn-container">
-                  <a class="play-btn" href="https://tecosv.itch.io/long-spear" target="_blank">Jugar ahora</a>
+                  <a loc-key="PROJECTS-SECTION-PLAY-NOW" class="play-btn" href="https://tecosv.itch.io/long-spear" target="_blank">Jugar ahora</a>
                 </div>
   
-                <p class="card-text">
-                  Long Spear es un videojuego que mezcla elementos de puzzle y sigilo, fue mi submisión al Game Jam "Tu
-                  Juego a Juicio" organizado por Alva Majo en el año 2021, el videojuego tuvo un excelente resultado 
-                  terminando en primer lugar en la categoría de jugabilidad y segundo lugar en la categoría general.
-                </p>
-                <p class="card-text">
-                  Desarrollado en Godot Engine estuve a cargo de la programación, arte y sonido.
-                </p>
+                <p loc-key="PROJECT-CARD-LONG-SPEAR-DESCRIPTION" class="card-text"></p>
               </div>
             </div>
           </div>
@@ -204,8 +159,7 @@
     
     <!--Experience-->
     <div id="experience" data-aos="fade-left" class="content-section">
-      <h2 class="text-center mb-4">Experiencia</h2>
-      <p class="text-center">Empresas con las que he trabajado</p>
+      <h2 loc-key="EXPERIENCE-SECTION-TITLE" class="text-center mb-4">Experiencia</h2>
 
       <div class="container">
         <div class="row row-cols-1 row-cols-md-3 g-3">
@@ -214,17 +168,12 @@
             <div class="card h-100">
               <img src="assets/FPL_Logo-min.png" class="card-img-top" alt="Fair Play Labs logo">
               <div class="card-body">
-                <h4 class="card-title">Fair Play Labs</h4>
-                <h5 class="card-title">2019 - Ahora</h5>
-                <p class="card-text">
-                  • Programación e integración de personajes para el videojuego Nickelodeon All-Start Brawl (PC, PS4, PS5, Xbox One, Xbox Series, Nintendo Switch).
-                </p>
-                <p class="card-text">
-                  • Programación de mecánicas y diseño de niveles para el videojuego GI Joe Operation Blackout (PC, PS4, Xbox One, Nintendo Switch).
-                </p>
-                <p class="card-text">
-                  • Port del videojuego Firefighters Airport Heroes a diferentes plataformas (PC, PS4, Xbox One, Nintendo Switch).
-                </p>
+                <h4 loc-key="EXPERIENCE-CARD-FPL-TITLE" class="card-title">Fair Play Labs</h4>
+                <h5 loc-key="EXPERIENCE-CARD-FPL-TIME" class="card-title">2019 - Ahora</h5>
+                
+                <p loc-key="EXPERIENCE-CARD-FPL-DESC-1" class="card-text"></p>
+                <p loc-key="EXPERIENCE-CARD-FPL-DESC-2" class="card-text"></p>
+                <p loc-key="EXPERIENCE-CARD-FPL-DESC-3" class="card-text"></p>
               </div>
             </div>
           </div>
@@ -234,25 +183,22 @@
 
     <!--Education-->
     <div id="education" data-aos="fade-right" class="content-section container">
-      <h2 class="text-center mb-4">Educación</h2>
-      <p class="text-center">Información sobre mi formación académica</p>
+      <h2 loc-key="EDUCATION-SECTION-TITLE" class="text-center mb-4">Educación</h2>
 
-      <h3>Universidad Cenfotec</h3>
-      <p>• Bachillerato en Desarrollo de Software - En proceso</p>
-      <p>• Técnico en Desarrollo de Software - 2021</p>
+      <h3 loc-key="EDUCATION-SECTION-CENFOTEC-TITLE">Universidad Cenfotec</h3>
+      <p loc-key="EDUCATION-SECTION-CENFOTEC-1">• Bachillerato en Desarrollo de Software - En proceso</p>
+      <p loc-key="EDUCATION-SECTION-CENFOTEC-2">• Técnico en Desarrollo de Software - 2021</p>
       <br>
-      <h3>Colegio Técnico Profesional de Acosta</h3>
-      <p>• Bachillerato en Educación Media - 2019</p>
-      <p>• Técnico en Redes - 2019</p>
-      <p>• CCNA 3 - 2019</p>
-      <p>• CCNA 2 - 2018</p>
-      <p>• CCNA 1 - 2018</p>
+      <h3 loc-key="EDUCATION-SECTION-CTPA-TITLE">Colegio Técnico Profesional de Acosta</h3>
+      <p loc-key="EDUCATION-SECTION-CTPA-1">• Técnico en Redes - 2019</p>
+      <p loc-key="EDUCATION-SECTION-CTPA-2">• CCNA 3 - 2019</p>
+      <p loc-key="EDUCATION-SECTION-CTPA-3">• CCNA 2 - 2018</p>
+      <p loc-key="EDUCATION-SECTION-CTPA-4">• CCNA 1 - 2018</p>
     </div>
 
     <!--Technologies-->
     <div id="technologies" data-aos="fade-left" class="content-section container">
-      <h2 class="text-center mb-4">Tecnologías</h2>
-      <p class="text-center">Game Engines con los que tengo experiencia</p>
+      <h2 loc-key="TECHNOLOGIES-SECTION-TITLE" class="text-center mb-4">Tecnologías</h2>
 
       <div class="container">
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -277,6 +223,27 @@
               <div class="technology-logo godot-logo"></div>
             </div>
           </div>
+
+          <!--HTML-->
+          <div class="col" data-aos="zoom-in" data-aos-delay="150">
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <div class="technology-logo html-logo"></div>
+            </div>
+          </div>
+  
+          <!--CSS-->
+          <div class="col" data-aos="zoom-in" data-aos-delay="300">
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <div class="technology-logo css-logo"></div>
+            </div>
+          </div>
+  
+          <!--JS-->
+          <div class="col" data-aos="zoom-in" data-aos-delay="450">
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <div class="technology-logo js-logo"></div>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -284,36 +251,11 @@
 
     <!--Contact-->
     <div id="contact" data-aos="fade-right" class="content-section container">
-      <h2 class="text-center">Contacto</h2>
+      <h2 loc-key="CONTACT-SECTION-TITLE" class="text-center">Contacto</h2>
 
-      <p class="text-center">¿Interesado en hacer un videojuego? Envíame un correo y hablemos</p>
-      <form id="contact-form">
-        <div class="form-group mb-2">
-          <label>Nombre</label>
-          <input class="form-control" id="name-field" type="text" name="contact_name" required>
-        </div>
-        <div class="form-group mb-2">
-          <Label>Número de teléfono</Label>
-          <input class="form-control" id="tel-number-field" type="text" name="contact_number">
-        </div>
-        <div class="form-group mb-2">
-          <label>Correo electrónico</label>
-          <input class="form-control" id="email-field" type="email" name="contact_email" required>
-        </div>
-        <div class="form-group mb-2">
-          <Label>Asunto</Label>
-          <input class="form-control" id="subject-field" type="text" name="message_subject" required>
-        </div>
-        <div class="form-group mb-2">
-          <label>Mensaje</label>
-          <textarea class="form-control" id="message-field" name="message" rows="4" required></textarea>
-        </div>
-        <div class="form-group mb-4">
-          <input class="send-mail-btn" id="send-email-btn" type="submit" value="Enviar">
-        </div>
-      </form>
-
-      <p class="text-center">Otros medios de comunicación y espacios digitales</p>
+      <p loc-key="CONTACT-SECTION-DESCRIPTION" class="text-center">¿Interesado en hacer un videojuego? Envíame un correo y hablemos</p>
+      <p loc-key="CONTACT-SECTION-EMAIL" class="text-center">tecosevi@gmail.com</p>
+      <p loc-key="CONTACT-SECTION-OTHER-MEDIA" class="text-center">Otros medios de comunicación y espacios digitales</p>
       <div class="contact-logos-container">
         <a class="contact-logo linkedin-logo" href="https://www.linkedin.com/in/taylor-segura-vindas-553b22252/" target="_blank"></a>
         <a class="contact-logo github-logo" href="https://github.com/TecoSV" target="_blank"></a>
@@ -324,17 +266,16 @@
     <!--Footer-->
     <footer>
       <div class="text-center p-4 footer-colors">
-        <p>© 2022 Copyright - Taylor Segura Vindas</p>
+        <p loc-key="FOOTER-SECTION-TITLE">© 2024 Copyright - Taylor Segura Vindas</p>
       </div>
     </footer>
-  </main>
-
-  
+  </main> 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/localization.js"></script>
 </body>
 
 <script>

@@ -1,0 +1,62 @@
+{
+    "NAVBAR-HOME" : "Home",
+    "NAVBAR-PROJECTS" : "Projects",
+    "NAVBAR-EXPERIENCE" : "Experience",
+    "NAVBAR-EDUCATION" : "Education",
+    "NAVBAR-TECHNOLOGIES" : "Technologies",
+    "NAVBAR-CONTACT" : "Contact",
+
+
+    "HEADER-NAME" : "Taylor Segura Vindas",
+    "HEADER-GAMEDEV" : "Game Dev",
+    "HEADER-DESCRIPTION" : "Software Developer focused on Game Development",
+    "DOWNLOAD-CURRICULUM" : "Download Curriculum",
+
+
+    "PROJECTS-SECTION-TITLE" : "Projects",
+    "PROJECTS-SECTION-PLAY-NOW" : "Play Now",
+
+    "PROJECT-CARD-NASB2-TITLE" : "Nickelodeon All-Star Brawl 2",
+    "PROJECT-CARD-NASB2-DESCRIPTION" : "My role in this project was to create the battle engine, physics system, combat system and integration tools for characters, animations and VFX.",
+
+    "PROJECT-CARD-NASB-TITLE" : "Nickelodeon All-Star Brawl",
+    "PROJECT-CARD-NASB-DESCRIPTION" : "My role in this project was the coding and integration of different playable characters and items, as well as the development of VFX and SFX integration tools.",
+
+    "PROJECT-CARD-GIJOE-TITLE" : "GI Joe Operation Blackout",
+    "PROJECT-CARD-GIJOE-DESCRIPTION" : "My role in this project was the coding for gameplay mechanics and boss battles, as well as the level design for the vehicles section.",
+
+    "PROJECT-CARD-LONG-SPEAR-TITLE" : "Long Spear",
+    "PROJECT-CARD-LONG-SPEAR-DESCRIPTION" : "This was my submission for the \"Tu Juego a Juicio\" Game Jam organized by Alva Majo in 2021, the game had an excellent result getting the first place in the gameplay category and the second place in the general category.",
+
+    
+    "EXPERIENCE-SECTION-TITLE" : "Experience",
+    "EXPERIENCE-CARD-FPL-TITLE" : "Fair Play Labs",
+    "EXPERIENCE-CARD-FPL-TIME" : "2019 - Now",
+    "EXPERIENCE-CARD-FPL-DESC-1" : "• Nickelodeon All-Start Brawl 2 (PC, PS4, PS5, Xbox One, Xbox Series, Nintendo Switch).",
+    "EXPERIENCE-CARD-FPL-DESC-2" : "• Nickelodeon All-Start Brawl (PC, PS4, PS5, Xbox One, Xbox Series, Nintendo Switch).",
+    "EXPERIENCE-CARD-FPL-DESC-3" : "• GI Joe Operation Blackout (PC, PS4, Xbox One, Nintendo Switch).",
+
+
+    "EDUCATION-SECTION-TITLE" : "Education",
+
+    "EDUCATION-SECTION-CENFOTEC-TITLE" : "Universidad Cenfotec",
+    "EDUCATION-SECTION-CENFOTEC-1" : "• Software Development Bachelor - In progress",
+    "EDUCATION-SECTION-CENFOTEC-2" : "• Software Development Technician - 2021",
+
+    "EDUCATION-SECTION-CTPA-TITLE" : "Colegio Técnico Profesional de Acosta",
+    "EDUCATION-SECTION-CTPA-1" : "• Computer Network Technician - 2019",
+    "EDUCATION-SECTION-CTPA-2" : "• CCNA 3 - 2019",
+    "EDUCATION-SECTION-CTPA-3" : "• CCNA 2 - 2018",
+    "EDUCATION-SECTION-CTPA-4" : "• CCNA 1 - 2018",
+
+
+    "TECHNOLOGIES-SECTION-TITLE" : "Technologies",
+
+
+    "CONTACT-SECTION-TITLE" : "Contact",
+    "CONTACT-SECTION-DESCRIPTION" : "Interested in creating a video game? Send me an email and let's talk",
+    "CONTACT-SECTION-EMAIL" : "tecosevi@gmail.com",
+    "CONTACT-SECTION-OTHER-MEDIA" : "Other media and digital spaces",
+
+    "FOOTER-SECTION-TITLE" : "© 2024 Copyright - Taylor Segura Vindas"
+}

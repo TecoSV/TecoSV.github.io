@@ -27,6 +27,32 @@ p {
     line-height: 24px;
 }
 
+.language-selector-container {
+    position: fixed;
+    z-index: 10;
+    width: 110px;
+    height: 50px;
+    top: 100px;
+    right: 10px;
+
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    
+    display: flex;
+    justify-content: center;
+}
+
+.language-selector {
+    border: none;
+}
+.language-selector :focus {
+    border: none;
+}
+.language-selector :active {
+    border: none;
+}
+
 .navbar-colors
 {
     background-color: #465d61;
@@ -279,6 +305,15 @@ p {
 }
 .godot-logo {
     background-image: url("../assets/Godot_Logo-min.png");
+}
+.html-logo {
+    background-image: url("../assets/HTML5_logo-min.png");
+}
+.css-logo {
+    background-image: url("../assets/css3_logo-min.png");
+}
+.js-logo {
+    background-image: url("../assets/JavaScript_logo-min.png");
 }
 
 .contact-logos-container {

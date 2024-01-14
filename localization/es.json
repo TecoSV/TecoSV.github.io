@@ -1,0 +1,62 @@
+{
+    "NAVBAR-HOME" : "Inicio",
+    "NAVBAR-PROJECTS" : "Proyectos",
+    "NAVBAR-EXPERIENCE" : "Experiencia",
+    "NAVBAR-EDUCATION" : "Educación",
+    "NAVBAR-TECHNOLOGIES" : "Tecnologías",
+    "NAVBAR-CONTACT" : "Contacto",
+
+
+    "HEADER-NAME" : "Taylor Segura Vindas",
+    "HEADER-GAMEDEV" : "Game Dev",
+    "HEADER-DESCRIPTION" : "Desarrollador de Software con énfasis en la creación de videojuegos",
+    "DOWNLOAD-CURRICULUM" : "Descargar Curriculum",
+
+
+    "PROJECTS-SECTION-TITLE" : "Proyectos",
+    "PROJECTS-SECTION-PLAY-NOW" : "Jugar ahora",
+
+    "PROJECT-CARD-NASB2-TITLE" : "Nickelodeon All-Star Brawl 2",
+    "PROJECT-CARD-NASB2-DESCRIPTION" : "Mi rol en este proyecto fue la programación del engine de peleas, sistema de físicas, sistema de combate y herramientas para la integración de personajes, animaciones y VFX.",
+
+    "PROJECT-CARD-NASB-TITLE" : "Nickelodeon All-Star Brawl",
+    "PROJECT-CARD-NASB-DESCRIPTION" : "Mi rol en este proyecto fue la programación e integración de diferentes personajes e items, así como el desarrollo de herramientas para la integración de VFX y SFX.",
+
+    "PROJECT-CARD-GIJOE-TITLE" : "GI Joe Operation Blackout",
+    "PROJECT-CARD-GIJOE-DESCRIPTION" : "Mi rol en este proyecto fue la programación de mecánicas jugables y batallas contra jefes, además del diseño de niveles en las secciones de vehículos.",
+
+    "PROJECT-CARD-LONG-SPEAR-TITLE" : "Long Spear",
+    "PROJECT-CARD-LONG-SPEAR-DESCRIPTION" : "Fue mi submisión al Game Jam \"Tu Juego a Juicio\" organizado por Alva Majo en el año 2021, el videojuego tuvo un excelente resultado terminando en primer lugar en la categoría de jugabilidad y segundo lugar en la categoría general.",
+
+    
+    "EXPERIENCE-SECTION-TITLE" : "Experiencia",
+    "EXPERIENCE-CARD-FPL-TITLE" : "Fair Play Labs",
+    "EXPERIENCE-CARD-FPL-TIME" : "2019 - Ahora",
+    "EXPERIENCE-CARD-FPL-DESC-1" : "• Nickelodeon All-Start Brawl 2 (PC, PS4, PS5, Xbox One, Xbox Series, Nintendo Switch).",
+    "EXPERIENCE-CARD-FPL-DESC-2" : "• Nickelodeon All-Start Brawl (PC, PS4, PS5, Xbox One, Xbox Series, Nintendo Switch).",
+    "EXPERIENCE-CARD-FPL-DESC-3" : "• GI Joe Operation Blackout (PC, PS4, Xbox One, Nintendo Switch).",
+
+
+    "EDUCATION-SECTION-TITLE" : "Educación",
+
+    "EDUCATION-SECTION-CENFOTEC-TITLE" : "Universidad Cenfotec",
+    "EDUCATION-SECTION-CENFOTEC-1" : "• Bachillerato en Desarrollo de Software - En proceso",
+    "EDUCATION-SECTION-CENFOTEC-2" : "• Técnico en Desarrollo de Software - 2021",
+
+    "EDUCATION-SECTION-CTPA-TITLE" : "Colegio Técnico Profesional de Acosta",
+    "EDUCATION-SECTION-CTPA-1" : "• Técnico en Redes - 2019",
+    "EDUCATION-SECTION-CTPA-2" : "• CCNA 3 - 2019",
+    "EDUCATION-SECTION-CTPA-3" : "• CCNA 2 - 2018",
+    "EDUCATION-SECTION-CTPA-4" : "• CCNA 1 - 2018",
+
+
+    "TECHNOLOGIES-SECTION-TITLE" : "Tecnologías",
+
+
+    "CONTACT-SECTION-TITLE" : "Contacto",
+    "CONTACT-SECTION-DESCRIPTION" : "¿Interesado en crear un videojuego? Envíame un correo electrónico y hablemos",
+    "CONTACT-SECTION-EMAIL" : "tecosevi@gmail.com",
+    "CONTACT-SECTION-OTHER-MEDIA" : "Otros medios de comunicación y espacios digitales",
+
+    "FOOTER-SECTION-TITLE" : "© 2024 Copyright - Taylor Segura Vindas"
+}
