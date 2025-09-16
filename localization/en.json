@@ -16,18 +16,32 @@
     "PROJECTS-SECTION-TITLE" : "Projects",
     "PROJECTS-SECTION-PLAY-NOW" : "Play Now",
 
+    "PROJECT-CARD-SPEEDRUNNERS2-TITLE" : "SpeedRunners2: King of Speed",
+    "PROJECT-CARD-SPEEDRUNNERS2-1" : "• Built the physics system, combat mechanics, and custom state machine for responsive gameplay.",
+    "PROJECT-CARD-SPEEDRUNNERS2-2" : "• Created integration tools to streamline character, animation, and VFX implementation.",
+    "PROJECT-CARD-SPEEDRUNNERS2-3" : "• Recreated and modernized legacy mechanics from the original title.",
+
     "PROJECT-CARD-NASB2-TITLE" : "Nickelodeon All-Star Brawl 2",
     "PROJECT-CARD-NASB2-DESCRIPTION" : "My role in this project was to create the battle engine, physics system, combat system and integration tools for characters, animations and VFX.",
+    "PROJECT-CARD-NASB2-1" : "• Engineered combat and physics systems, and designed reusable state machine architecture.",
+    "PROJECT-CARD-NASB2-2" : "• Developed and maintained integration pipelines for characters, animations, VFX, and SFX.",
+    "PROJECT-CARD-NASB2-3" : "• Ensured cross-platform stability and optimized performance for console releases.",
 
     "PROJECT-CARD-NASB-TITLE" : "Nickelodeon All-Star Brawl",
     "PROJECT-CARD-NASB-DESCRIPTION" : "My role in this project was the coding and integration of different playable characters and items, as well as the development of VFX and SFX integration tools.",
+    "PROJECT-CARD-NASB-1" : "• Programmed and integrated multiple playable characters and interactive items.",
+    "PROJECT-CARD-NASB-2" : "• Designed asset integration tools, reducing implementation time for VFX and SFX.",
 
     "PROJECT-CARD-GIJOE-TITLE" : "GI Joe Operation Blackout",
     "PROJECT-CARD-GIJOE-DESCRIPTION" : "My role in this project was the coding for gameplay mechanics and boss battles, as well as the level design for the vehicles section.",
+    "PROJECT-CARD-GIJOE-1" : "• Implemented gameplay mechanics and boss battle systems.",
+    "PROJECT-CARD-GIJOE-2" : "• Designed and scripted vehicle-based levels, ensuring smooth player experience.",
 
     "PROJECT-CARD-LONG-SPEAR-TITLE" : "Long Spear",
     "PROJECT-CARD-LONG-SPEAR-DESCRIPTION" : "This was my submission for the \"Tu Juego a Juicio\" Game Jam organized by Alva Majo in 2021, the game had an excellent result getting the first place in the gameplay category and the second place in the general category.",
-
+    "PROJECT-CARD-LONG-SPEAR-1" : "• Developed for the \"Tu Juego a Juicio\" Game Jam organized by Alva Majo in 2021.",
+    "PROJECT-CARD-LONG-SPEAR-2" : "• Created all design, code, art, SFX and VFX.",
+    "PROJECT-CARD-LONG-SPEAR-3" : "• Awarded 1st place in gameplay and 2nd place overall.",
     
     "EXPERIENCE-SECTION-TITLE" : "Experience",
     "EXPERIENCE-CARD-FPL-TITLE" : "Fair Play Labs",
@@ -40,8 +54,8 @@
     "EDUCATION-SECTION-TITLE" : "Education",
 
     "EDUCATION-SECTION-CENFOTEC-TITLE" : "Universidad Cenfotec",
-    "EDUCATION-SECTION-CENFOTEC-1" : "• Software Development Bachelor - In progress",
-    "EDUCATION-SECTION-CENFOTEC-2" : "• Software Development Technician - 2021",
+    "EDUCATION-SECTION-CENFOTEC-1" : "• Bachelor in Software Development - In Progress",
+    "EDUCATION-SECTION-CENFOTEC-2" : "• Technician in Software Development - 2021",
 
     "EDUCATION-SECTION-CTPA-TITLE" : "Colegio Técnico Profesional de Acosta",
     "EDUCATION-SECTION-CTPA-1" : "• Computer Network Technician - 2019",

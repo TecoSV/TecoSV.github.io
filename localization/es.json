@@ -16,19 +16,33 @@
     "PROJECTS-SECTION-TITLE" : "Proyectos",
     "PROJECTS-SECTION-PLAY-NOW" : "Jugar ahora",
 
+    "PROJECT-CARD-SPEEDRUNNERS2-TITLE" : "SpeedRunners2: King of Speed",
+    "PROJECT-CARD-SPEEDRUNNERS2-1" : "• Desarrollo del sistema de físicas, mecánicas de combate y máquina de estados personalizada.",
+    "PROJECT-CARD-SPEEDRUNNERS2-2" : "• Creación de herramientas de integración para personajes, animaciones y VFX.",
+    "PROJECT-CARD-SPEEDRUNNERS2-3" : "• Adaptación y modernización de las mecánicas originales del primer juego.",
+
     "PROJECT-CARD-NASB2-TITLE" : "Nickelodeon All-Star Brawl 2",
     "PROJECT-CARD-NASB2-DESCRIPTION" : "Mi rol en este proyecto fue la programación del engine de peleas, sistema de físicas, sistema de combate y herramientas para la integración de personajes, animaciones y VFX.",
+    "PROJECT-CARD-NASB2-1" : "• Implementación de sistemas de combate y físicas, con arquitectura reutilizable de máquina de estados.",
+    "PROJECT-CARD-NASB2-2" : "• Desarrollo de pipelines de integración para personajes, animaciones, VFX y SFX.",
+    "PROJECT-CARD-NASB2-3" : "• Optimización de rendimiento y estabilidad para múltiples consolas.",
 
     "PROJECT-CARD-NASB-TITLE" : "Nickelodeon All-Star Brawl",
     "PROJECT-CARD-NASB-DESCRIPTION" : "Mi rol en este proyecto fue la programación e integración de diferentes personajes e items, así como el desarrollo de herramientas para la integración de VFX y SFX.",
+    "PROJECT-CARD-NASB-1" : "• Programación e integración de personajes jugables e ítems interactivos.",
+    "PROJECT-CARD-NASB-2" : "• Diseño de herramientas de integración de assets.",
 
     "PROJECT-CARD-GIJOE-TITLE" : "GI Joe Operation Blackout",
     "PROJECT-CARD-GIJOE-DESCRIPTION" : "Mi rol en este proyecto fue la programación de mecánicas jugables y batallas contra jefes, además del diseño de niveles en las secciones de vehículos.",
+    "PROJECT-CARD-GIJOE-1" : "• Implementación de mecánicas de juego y sistemas de jefes finales.",
+    "PROJECT-CARD-GIJOE-2" : "• Diseño y scripting de niveles de vehículos, garantizando una experiencia de juego fluida.",
 
     "PROJECT-CARD-LONG-SPEAR-TITLE" : "Long Spear",
     "PROJECT-CARD-LONG-SPEAR-DESCRIPTION" : "Fue mi submisión al Game Jam \"Tu Juego a Juicio\" organizado por Alva Majo en el año 2021, el videojuego tuvo un excelente resultado terminando en primer lugar en la categoría de jugabilidad y segundo lugar en la categoría general.",
+    "PROJECT-CARD-LONG-SPEAR-1" : "• Desarrollado como participación en el Game Jam \"Tu Juego a Juicio\" organizado por Alva Majo en 2021.",
+    "PROJECT-CARD-LONG-SPEAR-2" : "• Creación completa de diseño, código, arte, SFX y VFX.",
+    "PROJECT-CARD-LONG-SPEAR-3" : "• Reconocido con 1º lugar en jugabilidad y 2º lugar en la clasificación general.",
 
-    
     "EXPERIENCE-SECTION-TITLE" : "Experiencia",
     "EXPERIENCE-CARD-FPL-TITLE" : "Fair Play Labs",
     "EXPERIENCE-CARD-FPL-TIME" : "2019 - Ahora",
