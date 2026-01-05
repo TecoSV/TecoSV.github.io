@@ -6,15 +6,22 @@
     "NAVBAR-TECHNOLOGIES" : "Technologies",
     "NAVBAR-CONTACT" : "Contact",
 
-
     "HEADER-NAME" : "Taylor Segura Vindas",
     "HEADER-GAMEDEV" : "Game Dev",
     "HEADER-DESCRIPTION" : "Software Developer focused on Game Development",
     "DOWNLOAD-CURRICULUM" : "Download Resume",
 
-
     "PROJECTS-SECTION-TITLE" : "Projects",
     "PROJECTS-SECTION-PLAY-NOW" : "Play Now",
+
+    "PERSONAL-PROJECT-TITLE" : "Personal",
+    "FPL-PROJECT-TITLE" : "Fair Play Labs",
+    "NA-PROJECT-TITLE" : "[ N / A ]",
+
+    "PROJECT-CARD-Y-TITLE" : "¿ Y ? A Short Memoir Told in Bits",
+    "PROJECT-CARD-Y-1" : "• Implemented all gameplay, narrative, and UI systems.",
+    "PROJECT-CARD-Y-2" : "• Translated narrative design into interactive experiences.",
+    "PROJECT-CARD-Y-3" : "• Owned the project’s technical execution from concept to release.",
 
     "PROJECT-CARD-SPEEDRUNNERS2-TITLE" : "SpeedRunners2: King of Speed",
     "PROJECT-CARD-SPEEDRUNNERS2-1" : "• Built the physics system, combat mechanics, and custom state machine for responsive gameplay.",

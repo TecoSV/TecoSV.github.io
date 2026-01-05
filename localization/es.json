@@ -6,20 +6,27 @@
     "NAVBAR-TECHNOLOGIES" : "Tecnologías",
     "NAVBAR-CONTACT" : "Contacto",
 
-
     "HEADER-NAME" : "Taylor Segura Vindas",
     "HEADER-GAMEDEV" : "Game Dev",
     "HEADER-DESCRIPTION" : "Desarrollador de Software con énfasis en la creación de videojuegos",
     "DOWNLOAD-CURRICULUM" : "Descargar Curriculum",
 
-
     "PROJECTS-SECTION-TITLE" : "Proyectos",
     "PROJECTS-SECTION-PLAY-NOW" : "Jugar ahora",
 
+    "PERSONAL-PROJECT-TITLE" : "Personal",
+    "FPL-PROJECT-TITLE" : "Fair Play Labs",
+    "NA-PROJECT-TITLE" : "[ N / A ]",
+    
     "PROJECT-CARD-SPEEDRUNNERS2-TITLE" : "SpeedRunners2: King of Speed",
     "PROJECT-CARD-SPEEDRUNNERS2-1" : "• Desarrollo del sistema de físicas, mecánicas de combate y máquina de estados personalizada.",
     "PROJECT-CARD-SPEEDRUNNERS2-2" : "• Creación de herramientas de integración para personajes, animaciones y VFX.",
     "PROJECT-CARD-SPEEDRUNNERS2-3" : "• Adaptación y modernización de las mecánicas originales del primer juego.",
+
+    "PROJECT-CARD-Y-TITLE" : "¿ Y ? A Short Memoir Told in Bits",
+    "PROJECT-CARD-Y-1" : "• Implementación de todos los sistemas de gameplay, narrativa e interfaz de usuario.",
+    "PROJECT-CARD-Y-2" : "• Traducción del diseño narrativo en experiencias interactivas.",
+    "PROJECT-CARD-Y-3" : "• Responsable de la ejecución técnica del proyecto desde el concepto hasta el lanzamiento.",
 
     "PROJECT-CARD-NASB2-TITLE" : "Nickelodeon All-Star Brawl 2",
     "PROJECT-CARD-NASB2-DESCRIPTION" : "Mi rol en este proyecto fue la programación del engine de peleas, sistema de físicas, sistema de combate y herramientas para la integración de personajes, animaciones y VFX.",
